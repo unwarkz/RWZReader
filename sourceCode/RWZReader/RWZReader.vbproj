@@ -135,14 +135,13 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-<ItemGroup>
-  <!-- PIA для Outlook 2013/2016/2019 -->
-  <PackageReference Include="Microsoft.Office.Interop.Outlook" Version="15.0.4797.1004" />
-  <!-- Основные Office-PIA (office.dll) -->
-  <PackageReference Include="MSOfficeCore.Interop" Version="15.0.2" />
-  <!-- stdole.dll из NuGet -->
-  <PackageReference Include="stdole" Version="17.13.40008" />
-</ItemGroup>
+    <!-- PIA для Outlook 2013/2016/2019 -->
+    <PackageReference Include="Microsoft.Office.Interop.Outlook" Version="15.0.4797.1004" />
+    <!-- Основные Office-PIA (office.dll) -->
+    <PackageReference Include="MSOfficeCore.Interop" Version="15.0.2" />
+    <!-- stdole.dll из NuGet -->
+    <PackageReference Include="stdole" Version="17.13.40008" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
